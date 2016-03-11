@@ -7,6 +7,11 @@ body {
   color: #5a5a5a;
 }
 
+.carousel-inner img {
+  /*border: 10px solid red;*/
+  opacity: 0.1;
+  background-color: black;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -43,7 +48,7 @@ body {
 .carousel {
   height: 500px;
   margin-bottom: 60px;
-  background-color: #FF0000;
+  /*background-color: #FF0000;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -54,7 +59,7 @@ body {
 .carousel .item {
   height: 500px;
   /*background-image: url("structurechartfund.png");*/
-  background-color: #FF0000;
+  /*background-color: #FF0000;*/
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -124,6 +129,11 @@ body {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
+    text-shadow: none;
+    color: #777777;
+  }
+  .carousel-caption h1 {
+    color: black;
   }
 
   .featurette-heading {
